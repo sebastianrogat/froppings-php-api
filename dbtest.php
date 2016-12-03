@@ -1,5 +1,5 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOST");
+$dbhost = getenv("3306");
 $dbport = getenv("MYSQL_SERVICE_PORT");
 $dbuser = getenv("erikagtierrez");
 $dbpwd = getenv("eri33vgc66");
