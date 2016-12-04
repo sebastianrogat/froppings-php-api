@@ -1,5 +1,5 @@
 <?php
-$dbhost = getenv("172.30.43.191");
+$dbhost = getenv("127.0.0.1");
 $dbport = getenv("3306");
 $dbuser = getenv("erikagtierrez");
 $dbpwd = getenv("eri33vgc66");
