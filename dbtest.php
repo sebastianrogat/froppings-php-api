@@ -1,6 +1,6 @@
 <?php
-$dbhost = getenv("3306");
-$dbport = getenv("MYSQL_SERVICE_PORT");
+$dbhost = getenv("172.30.43.191");
+$dbport = getenv("3306");
 $dbuser = getenv("erikagtierrez");
 $dbpwd = getenv("eri33vgc66");
 $dbname = getenv("froppingsdatabase");
