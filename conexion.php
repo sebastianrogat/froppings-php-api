@@ -1,15 +1,14 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbport = getenv("MYSQL_SERVICE_PORT");
-$dbuser = getenv("MYSQL_USER");
-$dbpwd = getenv("MYSQL_PASSWORD");
-$dbname = getenv("MYSQL_DATABASE");
-$connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
-if ($connection->connect_errno) {
-    printf("Connect failed: %s\n", $mysqli->connect_error);
-    exit();
-} else {
-    printf("Connected to the database");
-}
-$connection->close();
+$servername = "localhost";
+$username = "hemaelco_erika";
+$password = "eri33vgc66";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 ?>
